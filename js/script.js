@@ -18,7 +18,7 @@ $(function() {
 		if(searchField.val() == '') {
 			$(searchField).animate({ 
 				width:'45%'
-			},400)
+			},400, function() {})
 		}
 	});
 
